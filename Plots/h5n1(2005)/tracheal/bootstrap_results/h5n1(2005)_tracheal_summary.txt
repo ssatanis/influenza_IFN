@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h5n1(2005) tracheal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 0.247534
+Median: 0.249274
+Std Dev: 0.085447
+
+Parameter Statistics:
+beta:
+  Mean: 0.090450
+  Median: 0.014666
+  95% CI: [0.005426, 1.209445]
+
+gamma:
+  Mean: 0.626864
+  Median: 0.022695
+  95% CI: [0.000030, 9.999564]
+
+rho:
+  Mean: 0.329242
+  Median: 0.006239
+  95% CI: [0.000001, 6.932738]
+
+delta:
+  Mean: 0.019118
+  Median: 0.004826
+  95% CI: [0.000001, 0.099804]
+
+p:
+  Mean: 0.291021
+  Median: 0.126584
+  95% CI: [0.100000, 1.021002]
+
+c:
+  Mean: 0.000353
+  Median: 0.000001
+  95% CI: [0.000001, 0.002611]
+
+alpha:
+  Mean: 0.050393
+  Median: 0.051953
+  95% CI: [0.000001, 0.123857]
+

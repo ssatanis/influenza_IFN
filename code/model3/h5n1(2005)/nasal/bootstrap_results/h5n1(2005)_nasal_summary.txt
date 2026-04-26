@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h5n1(2005) nasal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 0.044123
+Median: 0.025961
+Std Dev: 0.044406
+
+Parameter Statistics:
+beta:
+  Mean: 1.928962
+  Median: 0.364651
+  95% CI: [0.150637, 9.999923]
+
+gamma:
+  Mean: 0.379553
+  Median: 0.000320
+  95% CI: [0.000001, 3.135930]
+
+rho:
+  Mean: 5.696071
+  Median: 6.617963
+  95% CI: [0.000001, 10.000000]
+
+delta:
+  Mean: 0.014537
+  Median: 0.011424
+  95% CI: [0.004004, 0.044816]
+
+p:
+  Mean: 0.264001
+  Median: 0.228298
+  95% CI: [0.122589, 0.658686]
+
+c:
+  Mean: 0.044441
+  Median: 0.035811
+  95% CI: [0.006361, 0.145328]
+
+alpha:
+  Mean: 0.043831
+  Median: 0.047372
+  95% CI: [0.012557, 0.066632]
+

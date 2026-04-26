@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h3n2(2003) nasal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 0.717575
+Median: 0.322278
+Std Dev: 0.891854
+
+Parameter Statistics:
+beta:
+  Mean: 6.213613
+  Median: 9.992293
+  95% CI: [0.186037, 10.000000]
+
+gamma:
+  Mean: 0.000922
+  Median: 0.000001
+  95% CI: [0.000001, 0.000015]
+
+rho:
+  Mean: 6.134351
+  Median: 7.707614
+  95% CI: [0.000001, 10.000000]
+
+delta:
+  Mean: 0.017836
+  Median: 0.017973
+  95% CI: [0.000001, 0.043279]
+
+p:
+  Mean: 0.181989
+  Median: 0.172623
+  95% CI: [0.114754, 0.289757]
+
+c:
+  Mean: 0.005709
+  Median: 0.001514
+  95% CI: [0.000001, 0.031588]
+
+alpha:
+  Mean: 0.023508
+  Median: 0.020671
+  95% CI: [0.003734, 0.046156]
+

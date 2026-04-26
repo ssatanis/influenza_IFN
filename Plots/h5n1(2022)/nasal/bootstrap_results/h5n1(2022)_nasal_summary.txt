@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h5n1(2022) nasal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 0.346615
+Median: 0.289924
+Std Dev: 0.208073
+
+Parameter Statistics:
+beta:
+  Mean: 7.592312
+  Median: 9.999844
+  95% CI: [0.242743, 10.000000]
+
+gamma:
+  Mean: 0.001396
+  Median: 0.000001
+  95% CI: [0.000001, 0.000082]
+
+rho:
+  Mean: 7.406418
+  Median: 9.524959
+  95% CI: [0.000001, 10.000000]
+
+delta:
+  Mean: 0.029398
+  Median: 0.027765
+  95% CI: [0.004920, 0.062267]
+
+p:
+  Mean: 0.120976
+  Median: 0.100026
+  95% CI: [0.100000, 0.204366]
+
+c:
+  Mean: 0.004547
+  Median: 0.003697
+  95% CI: [0.000001, 0.014512]
+
+alpha:
+  Mean: 0.020230
+  Median: 0.019115
+  95% CI: [0.001243, 0.045923]
+

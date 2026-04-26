@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{ragged2e}
+\usepackage{xspace}
+\newcommand{\ic}{\ensuremath{\mathrm{IC}_{50}}\xspace}
+\newcommand{\fixme}[1]{\textbf{\color{red}FIXME: #1\color{black}}}
+\newcommand{\vinf}{\ensuremath{V_\mathrm{inf}}\xspace}
+\newcommand{\vrna}{\ensuremath{V_\mathrm{RNA}}\xspace}
+\newcommand{\cinf}{\ensuremath{c_\mathrm{inf}}\xspace}
+\newcommand{\crna}{\ensuremath{c_\mathrm{RNA}}\xspace}
+\newcommand{\emax}{\ensuremath{\epsilon_\mathrm{max}}\xspace}
+
+
+\newcommand{\be}{\[}
+\newcommand{\ee}{\]}
+\newcommand{\ben}{\begin{equation}}
+\newcommand{\een}{\end{equation}}
+\newcommand{\bean}{\begin{eqnarray}}
+\newcommand{\eean}{\end{eqnarray}}
+\newcommand{\dif}{\ensuremath{\mathrm{d}}\xspace}
+\begin{document}
+\title{The role of IFN-A2 in H5N1 infections}
+
+\maketitle
+	
+\noindent Interferon has a number of effects on the course of an influenza infection; it can cause cells to become resistant to infection, thereby lowering the infection rate, and has also been known to interfere with viral replication, thereby lowering the production rate. It is not clear which of these is the dominant effect, so mathematical models have examined both possibilities. This project will examine which is the best model for the effect of interferon in H5N1 infections. One of the models we will try for this project assumes that interferon lowers the infection rate of the virus,
+\bean
+\frac{\dif T}{\dif t} &=& - \frac{\beta}{\epsilon+F} T V \nonumber\\
+\frac{\dif I}{\dif t} &=& \frac{\beta}{\epsilon+F} T V - \delta I \\
+\frac{\dif V}{\dif t} &=& p I - cV \nonumber \\
+\frac{\dif F}{\dif t} &=& V - \alpha F. \nonumber
+\eean
+In the model, uninfected cells ($T$) can be infected by virus ($V$), at rate $\beta$. The infection rate can be modulated by the amount of IFN present with $\epsilon$ setting the strength of this effect. Once infected ($I$), cells produce virus at rate ($p$). Infected cells die at rate $\delta$ and virus is cleared at clearance rate $c$. Interferon is produced in response to virus and is cleared at rate $\alpha$.\\
+
+\noindent An alternative model assumes that interferon affects the production rate of the virus,
+\bean
+\frac{\dif T}{\dif t} &=& - \beta T V \nonumber\\
+\frac{\dif I}{\dif t} &=& \beta T V - \delta I \\
+\frac{\dif V}{\dif t} &=& \frac{p}{\epsilon+F} I - cV \nonumber \\
+\frac{\dif F}{\dif t} &=& V - \alpha F. \nonumber
+\eean
+This is the same as the first model, but the interferon is now acting to reduce production of the virus. As a first step, we will fit these two models to the data in Bauer et al. If neither model seems to capture the data properly, we can have interferon grow in response to infected cells (change the $V$ to an $I$ in the interferon equation), or we can examine a model that includes a resistant class of target cells.\\
+
+\noindent The final possible model assumes that cells get moved to a refractory state,
+\bean
+\frac{\dif T}{\dif t} &=& - \beta T V  - \gamma TF + \rho R\nonumber\\
+\frac{\dif R}{\dif t} &=& \gamma TF - \rho R \nonumber\\
+\frac{\dif I}{\dif t} &=& \beta T V - \delta I \\
+\frac{\dif V}{\dif t} &=& p I - cV \nonumber \\
+\frac{\dif F}{\dif t} &=& I - \alpha F. \nonumber
+\eean
+In this model, interferon moves cells into a refractory state $R$, although they can move back after some time $1/\rho$.\\
+
+\noindent\textbf{Methods:} We will use data from figure 3A of the paper (viral titer curves) and figure 5A (left column, IFN-A2 curves) and will try to fit both curves simultaneously. Use WebPlotDigitizer to extract the data from the graph, keep the virus in log. Do the nasal and tracheal measurements separately and each of the different strains of influenza separately as well. The viral titer measurements will be compared to the $V$ model predictions and the IFN-A2 measurements will be compared to the $F$ model predictions. You can assume that the initial number of target cells is 1, initial number of infected cells is 0. Initial amount of virus and interferon can be read off the graph. Make sure you take the log of the model prediction for the virus when calculating the SSR. The SSR will have two parts, the virus and interferon. Once you have good fits for each of the models, parameter distributions can be found using MCMC or bootstrapping. 
+
+\end{document}

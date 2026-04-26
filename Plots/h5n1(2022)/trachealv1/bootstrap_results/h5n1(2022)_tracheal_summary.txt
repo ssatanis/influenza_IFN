@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h5n1(2022) tracheal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 959918342040.362549
+Median: 0.103492
+Std Dev: 1861822131643.517334
+
+Parameter Statistics:
+beta:
+  Mean: 1.522330
+  Median: 0.110147
+  95% CI: [0.038154, 10.000000]
+
+gamma:
+  Mean: 0.001970
+  Median: 0.000001
+  95% CI: [0.000001, 0.003152]
+
+rho:
+  Mean: 0.971692
+  Median: 0.376240
+  95% CI: [0.000001, 9.999051]
+
+delta:
+  Mean: 0.000568
+  Median: 0.000001
+  95% CI: [0.000001, 0.006585]
+
+p:
+  Mean: 0.800836
+  Median: 0.373171
+  95% CI: [0.165796, 0.946981]
+
+c:
+  Mean: 0.103720
+  Median: 0.044522
+  95% CI: [0.008969, 0.113241]
+
+alpha:
+  Mean: 0.042548
+  Median: 0.043274
+  95% CI: [0.031081, 0.050768]
+

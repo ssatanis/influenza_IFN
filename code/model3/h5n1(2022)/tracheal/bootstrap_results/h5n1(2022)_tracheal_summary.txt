@@ -1,0 +1,47 @@
+Robust Bootstrap Results Summary for h5n1(2022) tracheal
+Target successful bootstrap samples: 1000
+Achieved successful samples: 1000
+Total attempts: 1303
+Success rate: 76.7%
+
+SSR Statistics (successful samples only, n=1000):
+Mean: 0.173826
+Median: 0.072779
+Std Dev: 0.192035
+
+Parameter Statistics (successful fits only):
+beta:
+  Mean: 1.833267
+  Median: 0.110723
+  95% CI: [0.038513, 10.000000]
+
+gamma:
+  Mean: 0.007355
+  Median: 0.000001
+  95% CI: [0.000001, 0.004506]
+
+rho:
+  Mean: 0.992046
+  Median: 0.375746
+  95% CI: [0.000001, 10.000000]
+
+delta:
+  Mean: 0.000595
+  Median: 0.000001
+  95% CI: [0.000001, 0.007522]
+
+p:
+  Mean: 0.835293
+  Median: 0.368711
+  95% CI: [0.162290, 1.044795]
+
+c:
+  Mean: 0.108584
+  Median: 0.043565
+  95% CI: [0.007836, 0.127380]
+
+alpha:
+  Mean: 0.042395
+  Median: 0.043204
+  95% CI: [0.029423, 0.050824]
+

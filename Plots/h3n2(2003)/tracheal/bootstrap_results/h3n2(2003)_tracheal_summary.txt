@@ -1,0 +1,44 @@
+Bootstrap Results Summary for h3n2(2003) tracheal
+Number of bootstrap samples: 1000
+
+SSR Statistics:
+Mean: 0.412512
+Median: 0.267805
+Std Dev: 0.413529
+
+Parameter Statistics:
+beta:
+  Mean: 0.028088
+  Median: 0.021695
+  95% CI: [0.014075, 0.056491]
+
+gamma:
+  Mean: 0.004892
+  Median: 0.003842
+  95% CI: [0.000001, 0.016680]
+
+rho:
+  Mean: 1.008457
+  Median: 0.130721
+  95% CI: [0.000001, 9.744484]
+
+delta:
+  Mean: 0.006085
+  Median: 0.007332
+  95% CI: [0.000001, 0.012290]
+
+p:
+  Mean: 30.694557
+  Median: 2.664973
+  95% CI: [1.304374, 123.711217]
+
+c:
+  Mean: 3.043286
+  Median: 0.194383
+  95% CI: [0.114630, 10.000000]
+
+alpha:
+  Mean: 0.022027
+  Median: 0.021394
+  95% CI: [0.004910, 0.044145]
+
